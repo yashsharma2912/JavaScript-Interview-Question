@@ -34,7 +34,29 @@ Q5. How to make an Object immutable in JavaScript?
 
 Ans: To make an object immutable, you can use Object.freeze() method. It prevents the modification of existing property values and prevents the addition of new properties.
 ------------------------------------------------
+Q6. Map, FilterC reduce
 
+1. map => 
+  const arr1 = [1,2,5,6];
+ // map method get value and index from the array 
+    arr1.map((value,index)=> {
+        console.log(value,index);
+    })
+
+2. Filter =>
+     const arr2 = [1,2,5,6];
+ // map method get value and index from the array 
+    const a2 = arr2.filter((elemts)=> {
+         return elemts > 1
+    })  
+
+3. reduce =>
+   const arr3 = [12,2,41,32,25];
+
+    const ans = arr3.reduce((h1,h2) => {
+        return h1 + h2;
+    } )
+output will the sum of the array 3 
 ------------------------------------------------
 
 ------------------------------------------------
