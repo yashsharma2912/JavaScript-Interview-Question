@@ -3,6 +3,9 @@ let arr = [12,22,35,12,"yash"]
 arr.push(20);
 console.log(arr);
 
+// Another method of declaring array
+let arr2 = new Array(15,20,25,30,"yash")
+
 //creation of an object
 // store element in key value pair
 let obj = {
